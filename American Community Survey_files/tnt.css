@@ -1,0 +1,93 @@
+body {
+	font: 1em/normal verdana, helvetica, arial, sans-serif; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+h1 {
+	margin: 0.5em 0px; letter-spacing: 0.1em;
+}
+h2 {
+	margin: 0.5em 0px; letter-spacing: 0.1em;
+}
+h3 {
+	margin: 0.5em 0px; letter-spacing: 0.1em;
+}
+h4 {
+	margin: 0.5em 0px; letter-spacing: 0.1em;
+}
+h5 {
+	margin: 0.5em 0px; letter-spacing: 0.1em;
+}
+p {
+	margin: 0.5em 0px; line-height: 1.4em;
+}
+div {
+	margin: 0.5em 0px; line-height: 1.4em;
+}
+fieldset {
+	margin: 0.5em 0px; line-height: 1.4em;
+}
+dl {
+	margin: 0.5em 0px; line-height: 1.4em;
+}
+blockquote {
+	margin: 0.5em 0px; line-height: 1.4em;
+}
+ul {
+	margin: 0.5em 0px 0.5em 1em;
+}
+ol {
+	margin: 0.5em 0px 0.5em 1em;
+}
+ul {
+	
+}
+ol {
+	list-style: decimal; margin-left: 1.5em;
+}
+legend {
+	display: none;
+}
+dt {
+	font-weight: bold;
+}
+strong {
+	font-weight: bold;
+}
+dd {
+	margin-left: 1em;
+}
+small {
+	font-size: 0.8em;
+}
+em {
+	font-style: oblique;
+}
+#submit_button {
+	text-align: center;
+}
+#pdfib_dnu {
+	display: none;
+}
+#pdlib_dnu {
+	display: none;
+}
+.screenreader {
+	left: -9999px; top: 0px; position: absolute;
+}
+.boc_warning_block {
+	margin: 0px auto; padding: 4px; border: 1px solid black; width: 80%; font-size: 0.9em; background-color: rgb(255, 255, 255);
+}

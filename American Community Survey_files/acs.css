@@ -1,0 +1,330 @@
+body {
+	margin: 0px; padding: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 14px; background-image: url("/static/acs/images/acs_background.jpg"); background-repeat: repeat-x; background-color: white;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; list-style-type: none;
+}
+input {
+	padding: 0px;
+}
+textarea {
+	font-family: MS Shell Dlg; font-size: 13.33px;
+}
+div#wrapper {
+	margin: 3px auto 0px; padding: 0px; border: 1px solid black; width: 960px; background-color: rgb(233, 239, 237);
+}
+div#header_top {
+	width: 960px; text-align: center; color: white; background-color: rgb(0, 151, 118);
+}
+div#header {
+	border-top-color: rgb(0, 151, 118); border-top-width: 17px; border-top-style: solid; background-color: rgb(0, 151, 118);
+}
+div#footer {
+	padding: 2.5px 1.5em; text-align: right; background-color: rgb(0, 151, 118);
+}
+a#Contact_Us {
+	color: white; text-decoration: none;
+}
+div#bottomlinks {
+	margin: 0px auto; width: 960px; text-align: right;
+}
+div#bottomlinks a {
+	color: rgb(0, 102, 255); font-weight: bold; text-decoration: none; margin-right: 1em;
+}
+div#emptynavcontainer {
+	padding: 0px; height: 20px; margin-bottom: 2em; background-color: rgb(0, 151, 118);
+}
+div#emptynavcontainer span {
+	color: rgb(255, 255, 255); padding-left: 30px; font-size: 11px;
+}
+#menu {
+	line-height: 1.2em;
+}
+#menu ul {
+	margin: 0px; padding: 0px; background-color: rgb(0, 151, 118);
+}
+#menu ul li {
+	list-style: none; display: inline;
+}
+#menu ul li a {
+	padding: 2px 58px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;
+}
+#menu ul li a:hover {
+	background-color: rgb(126, 201, 180);
+}
+#menu_es {
+	line-height: 1.2em;
+}
+#menu_es ul {
+	margin: 0px; padding: 0px; background-color: rgb(0, 151, 118);
+}
+#menu_es ul li {
+	list-style: none; display: inline;
+}
+#menu_es ul li a {
+	padding: 2px 40px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;
+}
+#menu_es ul li a:hover {
+	background-color: rgb(126, 201, 180);
+}
+li#save-exit {
+	margin-left: 225px;
+}
+li#save-exit-es {
+	margin-left: 150px;
+}
+div#form_wrapper {
+	padding-right: 60px; min-height: 362px;
+}
+td#main_form {
+	padding: 30px 0px 0px 40px; width: 704px;
+}
+td#sidebar {
+	width: 215px; vertical-align: top; border-top-color: black; border-left-color: black; border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; -ms-word-wrap: break-word; background-color: rgb(208, 223, 216);
+}
+div#sidebar-title {
+	text-align: center; color: white; font-weight: bold; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(0, 151, 118);
+}
+div.base-style {
+	margin: 0px; width: 205px; color: black; padding-left: 10px; font-weight: bold; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid; -ms-word-wrap: break-word;
+}
+div.finished {
+	color: gray; border-top-color: gray; border-bottom-color: gray; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: silver;
+}
+div.hilite {
+	color: black; background-color: white;
+}
+div.error {
+	background-position: 0.5em 0.4em; padding: 0.4em 2.5em; border: 1px solid red; width: 90%; font-weight: bold; margin-bottom: 1em; background-image: url("/static/acs/images/exclamation.gif"); background-repeat: no-repeat; background-color: rgb(253, 248, 223);
+}
+.inputerror .text {
+	background-color: rgb(253, 248, 223);
+}
+.inputerror .select {
+	background-color: rgb(253, 248, 223);
+}
+div.question-image {
+	float: left;
+}
+div.question-text {
+	line-height: 1.2em; padding-left: 25px; font-weight: bold;
+}
+div.question-text div {
+	line-height: 1.2em;
+}
+div.question-text span {
+	font-style: italic; font-weight: normal;
+}
+div.question-text span.normal {
+	font-style: normal; font-weight: bold;
+}
+div.question {
+	margin-bottom: 20px;
+}
+span.italic {
+	font-style: italic;
+}
+span.underline {
+	text-decoration: underline;
+}
+.list_item_group {
+	text-indent: -20px; padding-left: 20px;
+}
+.list_item_group {
+	line-height: 1em; margin-left: 20px;
+}
+.textbox {
+	line-height: 1em; margin-left: 20px;
+}
+li p {
+	margin: 0px; line-height: 1.2em; font-style: italic; display: inline;
+}
+.list-text-wrap {
+	padding-left: 20px;
+}
+div.supplemental-text {
+	padding: 0px; font-weight: bold; margin-top: 10px; margin-left: 25px;
+}
+div.indent-level-one {
+	padding-left: 55px; font-weight: bold; margin-top: 15px;
+}
+div.indent-level-one-no-bold {
+	padding-top: 15px; padding-left: 55px;
+}
+.list-header {
+	margin: 15px 0px 0px; color: rgb(0, 151, 118); letter-spacing: 0px; font-size: 14px; font-weight: bold;
+}
+.grayout {
+	color: gray;
+}
+div#buttons {
+	padding: 20px 0px 20px 20px;
+}
+li.button_prev {
+	margin-right: 15px; float: left;
+}
+input.exit {
+	margin-left: 175px;
+}
+div#login-text {
+	text-align: center; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;
+}
+div#login-container {
+	margin: 0px auto; padding: 0px 0px 10px; width: 900px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; min-height: 250px;
+}
+div #login-title {
+	text-align: center; color: rgb(255, 255, 255); padding-top: 1px; padding-bottom: 1px; font-size: 1.4em; font-weight: bold; margin-bottom: 1em; background-color: rgb(0, 0, 0);
+}
+div#login-image-fields {
+	height: auto;
+}
+div#login-image {
+	width: 410px; margin-left: 1em; float: left;
+}
+div#login-fields {
+	padding-top: 0px; font-size: 1.2em; font-weight: bold; margin-left: 490px;
+}
+div#login-footer {
+	height: 20px; text-align: left; color: rgb(255, 255, 255); padding-right: 1em; margin-top: 2em; background-color: rgb(0, 151, 118);
+}
+div#login-footer ul {
+	padding: 0px; border: currentColor; margin-left: 10px; display: inline;
+}
+div#login-footer ul li {
+	list-style: none; padding-left: 100px; display: inline;
+}
+div#login-footer ul li.first {
+	padding-left: 10px;
+}
+div#burden {
+	margin: 0px auto; width: 850px; text-align: center; font-family: arial,helvetica,georgia,serif; font-size: 0.9em;
+}
+div.boc_warning_block {
+	margin: 0px auto; width: 850px; text-align: center; font-family: arial,helvetica,georgia,serif; font-size: 0.9em;
+}
+div#burden {
+	margin-top: 2em;
+}
+div.boc_warning_block {
+	padding: 0.2em; border: 1px solid rgb(204, 204, 204); text-align: center; margin-top: 2.5em; background-color: white;
+}
+div.summaryinstr {
+	margin: 0px auto; width: 500px;
+}
+div.summaryinstr h1 {
+	margin: 0px; padding: 30px 0px; text-align: center; letter-spacing: 0px; font-size: 2.3em;
+}
+div.reviewinstr {
+	margin: 0px auto; width: 690px; font-weight: bold;
+}
+div.reviewinstr h1 {
+	margin: 0px; text-align: center; letter-spacing: 0px; padding-top: 30px; font-size: 1.7em;
+}
+div.reviewinstr h4 {
+	text-align: center; letter-spacing: 0px; padding-bottom: 20px;
+}
+table.infotable {
+	margin: 0px auto; border: 1px solid black; width: 690px; table-layout: fixed;
+}
+table.infotable td {
+	padding: 0.2em 0px 0.2em 0.7em; vertical-align: top; -ms-word-wrap: break-word;
+}
+table.infotable a {
+	color: blue;
+}
+table#summary a {
+	font-weight: bold;
+}
+tr.hilite {
+	background-color: rgb(191, 212, 203);
+}
+td.title {
+	width: 355px; font-weight: bold;
+}
+tr.newpage {
+	background-color: rgb(253, 248, 223);
+}
+tr.newpage img {
+	margin-right: 5px; float: left;
+}
+.texterror .text {
+	background-color: rgb(253, 248, 223);
+}
+.embederror {
+	background-color: rgb(253, 248, 223);
+}
+.clear {
+	clear: both;
+}
+.name_space {
+	padding-right: 10px;
+}
+.amtchkbox {
+	padding-left: 5px;
+}
+.indented-box {
+	padding-left: 25px;
+}
+.YNDK_Table table {
+	margin-left: 25px; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.YNDK_Table .yndk_header {
+	padding-right: 20px; font-weight: bold; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.YNDK_Table .yndk_even {
+	background-color: rgb(191, 213, 203);
+}
+.YNDK_Table .yndk_even th {
+	padding: 10px 50px 10px 25px; text-indent: -15px; border-left-color: black; border-left-width: 1px; border-left-style: solid;
+}
+.YNDK_Table .yndk_odd th {
+	padding: 10px 50px 10px 25px; text-indent: -15px; border-left-color: black; border-left-width: 1px; border-left-style: solid;
+}
+.YNDK_Table .yndk_even .col_no {
+	border-right-color: black; border-right-width: 1px; border-right-style: solid;
+}
+.YNDK_Table .yndk_odd .col_no {
+	border-right-color: black; border-right-width: 1px; border-right-style: solid;
+}
+.YNDK_Table .yndk_even label {
+	display: none;
+}
+.YNDK_Table .yndk_odd label {
+	display: none;
+}
+.YNDK_Table .row_embed {
+	padding: 0px 0px 10px 25px; border-right-color: black; border-left-color: black; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.YNDK_Table .yndk_even th label {
+	display: inline;
+}
+.YNDK_Table .col2 {
+	border-right-color: black; border-right-width: 1px; border-right-style: solid;
+}
+.YNDK_Table .col1 {
+	padding-right: 20px;
+}
+.YNDK_Table .col2 {
+	padding-right: 20px;
+}
+#fieldset_timeleftforwork_1 ul {
+	padding: 0px; text-indent: 0px;
+}
+label:hover {
+	position: relative;
+}
+label .css_tooltip {
+	display: none;
+}
+label:hover .css_tooltip {
+	border: 1px solid black; left: 0px; top: 0px; padding-right: 5px; padding-left: 25px; display: block; white-space: nowrap; position: absolute; opacity: 0; background-color: rgb(255, 255, 225);
+}
+#paradata {
+	display: none;
+}
+#login_paradata {
+	display: none;
+}
