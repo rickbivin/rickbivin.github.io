@@ -173,7 +173,7 @@ div#login-text {
 	text-align: center; font-size: 1.2em; font-weight: bold; margin-bottom: 1em;
 }
 div#login-container {
-	margin: 0px auto; padding: 0px 0px 10px; width: 900px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); min-height: 250px;
+	margin: 0px auto; padding: 0px 0px 10px; width: 900px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); min-height: 0px;
 }
 div #login-title {
 	text-align: center; color: rgb(255, 255, 255); padding-top: 1px; padding-bottom: 1px; font-size: 1.4em; font-weight: bold; margin-bottom: 1em; background-color: rgb(0, 0, 0);
