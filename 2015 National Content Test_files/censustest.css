@@ -1,0 +1,534 @@
+div {
+	margin: 0.5em 0px;
+}
+.row {
+	margin: 0px;
+}
+#header-top {
+	margin: 0px;
+}
+#header-top div {
+	margin: 0px;
+}
+#site-footer {
+	margin: 0px;
+}
+#site-footer div {
+	margin: 0px;
+}
+body {
+	margin: 0px; font-family: arial, helvetica, sans-serif; font-size: 14px; background-image: url("../2015%20National%20Content%20Test_files/body_bkg.jpg"); background-repeat: repeat-x; background-color: rgb(231, 239, 246);
+}
+#site-wrapper {
+	padding: 0px; margin-top: 0.5em; margin-bottom: 1em; min-height: 500px; max-width: 960px; box-shadow: 5px 7px 8px #777; background-color: rgb(245, 245, 245);
+}
+#main {
+	padding: 0px 15px; min-height: 480px;
+}
+#helpModal .modal-dialog {
+	margin-right: auto; margin-left: auto;
+}
+div.modal-dialog#inMainModal {
+	margin-right: auto; margin-left: auto;
+}
+#confirm-noemail .modal-dialog {
+	margin-right: auto; margin-left: auto;
+}
+#instr_iframe {
+	width: 100%; height: 100%;
+}
+#faq_iframe {
+	width: 100%; height: 100%;
+}
+form {
+	padding: 0px 25px;
+}
+@media all and (max-width:767px)
+{
+#site-wrapper {
+	margin-top: 0px;
+}
+form {
+	padding: 0px;
+}
+}
+fieldset {
+	width: 100%;
+}
+.question {
+	font-weight: bold;
+}
+.form-control {
+	color: black;
+}
+.grayout {
+	color: gray; font-style: oblique; font-weight: normal;
+}
+.helptext {
+	color: rgb(37, 128, 179); font-size: 0.9em; font-style: normal !important; font-weight: normal !important;
+}
+span.green_text {
+	color: green; font-style: normal; font-weight: bold;
+}
+.smalltext {
+	font-size: 12px; font-style: italic;
+}
+label {
+	font-weight: normal;
+}
+.space-top {
+	margin-top: 3em !important;
+}
+.list_item_group {
+	margin-left: 20px;
+}
+.textbox {
+	margin-left: 20px;
+}
+fieldset ul.list_item_group {
+	padding: 0px; text-align: left; list-style-type: none;
+}
+.radio {
+	display: inline-block; min-height: 0px;
+}
+.checkbox {
+	display: inline-block; min-height: 0px;
+}
+@media all and (max-width:767px)
+{
+input[type='checkbox'] {
+	margin-top: 20px;
+}
+input[type='radio'] {
+	margin-top: 20px;
+}
+}
+fieldset ul.list_item_group li label {
+	margin-left: 5px;
+}
+input {
+	font-style: normal; font-weight: normal;
+}
+.indent {
+	margin-left: 25px !important;
+}
+.radio-label {
+	margin-left: 0px !important; display: inline;
+}
+.cb-label {
+	display: inline;
+}
+#site-header {
+	background: url("../2015%20National%20Content%20Test_files/banner.jpg"); height: 131px;
+}
+.flag-text {
+	height: 20px; color: white; text-transform: uppercase; letter-spacing: 1px; padding-top: 10px; font-size: 10px;
+}
+.site-title {
+	margin: 0px; color: white; font-family: times, arial, helvetica, sans-serif; text-shadow: 2px 1px 1px #000, 2px 1px 1px #777;
+}
+#site-header .site-title {
+	padding: 30px 0px 0px 200px; letter-spacing: 2px; font-size: 2.8em;
+}
+.navbar {
+	margin: auto; padding: 0px; border-radius: 0px; min-height: 20px; max-height: 20px; max-width: 960px; background-image: url("../2015%20National%20Content%20Test_files/button_bg.gif"); background-repeat: repeat-x; background-color: rgb(56, 100, 132);
+}
+.navbar-brand {
+	color: white; letter-spacing: 1px; font-family: times, arial, helvetica, sans-serif; font-size: 22px;
+}
+.navbar .container {
+	margin-top: -1px;
+}
+.navbar-collapse {
+	margin-top: 0px;
+}
+.navbar-nav li a {
+	padding: 0px !important; width: 140px; height: 19px; text-align: center; color: rgb(60, 95, 149); font-weight: bold; text-decoration: none; margin-top: -1px;
+}
+.navbar-nav li a:hover {
+	color: rgb(0, 0, 0);
+}
+@media all and (max-width:767px)
+{
+.navbar {
+	max-height: none; background-image: none;
+}
+.navbar-nav li {
+	margin: 10px 0px;
+}
+}
+.navbar-collapse {
+	padding-right: 0px;
+}
+#faqs {
+	border-right-color: rgb(199, 199, 199); border-left-color: rgb(199, 199, 199); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.icon-bar {
+	background-color: white;
+}
+@media all and (max-width:767px)
+{
+#faqs {
+	border: currentColor; border-image: none;
+}
+.navbar-nav {
+	width: 100%;
+}
+.navbar-nav li a {
+	width: 100%; text-align: right; color: white;
+}
+.navbar-nav li a:hover {
+	text-decoration: underline;
+}
+}
+#site-footer {
+	margin: 0px; padding: 8px 0px; height: 35px; color: white; font-size: 0.8em; background-image: url("../2015%20National%20Content%20Test_files/footer_bkg.gif"); background-repeat: repeat-x; background-size: auto; background-color: rgb(59, 100, 132);
+}
+#omb-num {
+	padding: 0px 10px;
+}
+@media all and (max-width:767px)
+{
+#site-footer {
+	height: 65px; background-image: none;
+}
+#omb-num {
+	padding: 0px;
+}
+}
+#site-footer a {
+	padding: 0px 15px; color: rgb(255, 255, 255); text-decoration: none;
+}
+#site-footer a:hover {
+	text-decoration: underline;
+}
+#buttons ul li {
+	display: inline;
+}
+.button_prev {
+	margin-right: 30px;
+}
+#submit_login {
+	background: url("../2015%20National%20Content%20Test_files/button_bg.gif") repeat-x; border: 1px solid rgb(119, 119, 119); border-image: none; width: 7em; height: 21px; color: rgb(60, 95, 149); line-height: normal; font-size: 14px; font-weight: bold; box-shadow: 2px 2px 2px #888;
+}
+#submit_prev {
+	background: url("../2015%20National%20Content%20Test_files/button_bg.gif") repeat-x; border: 1px solid rgb(119, 119, 119); border-image: none; width: 7em; height: 21px; color: rgb(60, 95, 149); line-height: normal; font-size: 14px; font-weight: bold; box-shadow: 2px 2px 2px #888;
+}
+#submit_next {
+	background: url("../2015%20National%20Content%20Test_files/button_bg.gif") repeat-x; border: 1px solid rgb(119, 119, 119); border-image: none; width: 7em; height: 21px; color: rgb(60, 95, 149); line-height: normal; font-size: 14px; font-weight: bold; box-shadow: 2px 2px 2px #888;
+}
+#submit_final {
+	background: url("../2015%20National%20Content%20Test_files/button_bg.gif") repeat-x; border: 1px solid rgb(119, 119, 119); border-image: none; width: 7em; height: 21px; color: rgb(60, 95, 149); line-height: normal; font-size: 14px; font-weight: bold; box-shadow: 2px 2px 2px #888;
+}
+a.button {
+	background: url("../2015%20National%20Content%20Test_files/button_bg.gif") repeat-x; border: 1px solid rgb(119, 119, 119); border-image: none; width: 7em; height: 21px; color: rgb(60, 95, 149); line-height: normal; font-size: 14px; font-weight: bold; box-shadow: 2px 2px 2px #888;
+}
+.es#submit_login {
+	width: 11em;
+}
+a.button {
+	padding: 2px 15px;
+}
+a.fake_prev.button {
+	padding: 2px 30px;
+}
+@media all and (max-width:767px)
+{
+#submit_prev {
+	border: currentColor; border-image: none; width: 34px; height: 34px; text-indent: -9999px; margin-top: 30px; box-shadow: none;
+}
+:not(.exclude-mobile)#submit_next {
+	border: currentColor; border-image: none; width: 34px; height: 34px; text-indent: -9999px; margin-top: 30px; box-shadow: none;
+}
+.fake_next#submit_login {
+	border: currentColor; border-image: none; width: 34px; height: 34px; text-indent: -9999px; margin-top: 30px; box-shadow: none;
+}
+a.fake_prev {
+	border: currentColor; border-image: none; width: 34px; height: 34px; text-indent: -9999px; margin-top: 30px; box-shadow: none;
+}
+a.fake_prev.button {
+	padding: 0px; top: -8px; margin-top: 0px; display: inline-block; position: relative;
+}
+#submit_prev {
+	background: url("../2015%20National%20Content%20Test_files/mobile_prev.png");
+}
+a.fake_prev {
+	background: url("../2015%20National%20Content%20Test_files/mobile_prev.png");
+}
+:not(.exclude-mobile)#submit_next {
+	background: url("../2015%20National%20Content%20Test_files/mobile_next.png");
+}
+.fake_next#submit_login {
+	background: url("../2015%20National%20Content%20Test_files/mobile_next.png");
+}
+#buttons ul {
+	text-align: left; margin-left: 25px;
+}
+#buttons ul li {
+	padding-right: 15px;
+}
+#buttons ul li input#submit_prev {
+	margin-right: 30px;
+}
+}
+.error {
+	background: url("../2015%20National%20Content%20Test_files/error.png") no-repeat 1% 50% rgb(255, 186, 186); padding: 20px 10px 10px 30px; border: 1px dotted rgb(255, 174, 174); border-image: none; color: black; font-size: 13px; box-shadow: 2px 2px 2px #888;
+}
+.error ul {
+	list-style-type: none;
+}
+div.login_error.error#login_error_msg {
+	padding: 10px 30px; text-align: center;
+}
+@media all and (max-width:767px)
+{
+.error {
+	padding-left: 0px; background-image: none;
+}
+.login_error {
+	padding-left: 0px; background-image: none;
+}
+}
+.green_error {
+	background: url("../2015%20National%20Content%20Test_files/info_green.png") no-repeat 1% 50% rgb(176, 229, 124); border: 1px dotted lightgreen; border-image: none; color: black;
+}
+.red_error {
+	background: url("../2015%20National%20Content%20Test_files/info_red.png") no-repeat 1% 50% rgb(255, 186, 186);
+}
+@media all and (max-width:767px)
+{
+.green_error {
+	background-image: none;
+}
+.red_error {
+	background-image: none;
+}
+}
+.highlight {
+	border: 2px solid black; border-image: none; background-color: rgb(255, 252, 156);
+}
+.boc_warning_block {
+	padding: 0px; border: currentColor; border-image: none; width: 100%; font-size: 1em; background-color: transparent;
+}
+#paradata {
+	display: none;
+}
+#overlay {
+	z-index: 999;
+}
+#dialog {
+	z-index: 1000;
+}
+div#index {
+	margin: 30px 1em; padding: 1em; border-radius: 10px; border: 2px solid rgb(204, 204, 204); border-image: none; font-size: 1.2em; font-weight: bold; box-shadow: 5px 7px 8px #cccccc;
+}
+div#login {
+	margin: 30px 1em; padding: 1em; border-radius: 10px; border: 2px solid rgb(204, 204, 204); border-image: none; font-size: 1.2em; font-weight: bold; box-shadow: 5px 7px 8px #cccccc;
+}
+#index_begin {
+	text-decoration: underline;
+}
+@media all and (max-width:767px)
+{
+div#index {
+	margin: 0px; padding: 0px; border-radius: 0px; border: currentColor; border-image: none; box-shadow: none;
+}
+div#login {
+	margin: 0px; padding: 0px; border-radius: 0px; border: currentColor; border-image: none; box-shadow: none;
+}
+#login form div {
+	padding: 0px;
+}
+}
+div#index {
+	text-align: center;
+}
+div#login {
+	text-align: left;
+}
+#burden-container {
+	padding-top: 20px; padding-bottom: 40px; font-size: 0.8em;
+}
+#username span {
+	padding-left: 0px;
+}
+#username label {
+	padding-left: 0px;
+}
+@media all and (max-width:767px)
+{
+#login_img {
+	height: auto; max-width: 100%;
+}
+}
+#username {
+	width: 100%;
+}
+#operation-tqa {
+	width: auto; height: inherit; margin-top: -3px; display: inline;
+}
+#operation-cati {
+	width: auto; height: inherit; margin-top: -3px; display: inline;
+}
+#lang-en {
+	width: auto; height: inherit; margin-top: -3px; display: inline;
+}
+#lang-es {
+	width: auto; height: inherit; margin-top: -3px; display: inline;
+}
+#non_id_init {
+	background: none; padding: 0px; border: currentColor; border-image: none; color: rgb(66, 139, 202); cursor: pointer;
+}
+#non_id_init:hover {
+	color: rgb(42, 100, 150); border-bottom-color: rgb(42, 100, 150); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.closed div {
+	line-height: 2em; font-weight: bold;
+}
+.closed div h2 {
+	letter-spacing: 0em; font-weight: bold; margin-top: 4em;
+}
+#verify_inputs .form-control {
+	width: auto; display: inline;
+}
+div.col-xs-12#mapdiv {
+	margin: 0px;
+}
+@media all and (max-width:767px)
+{
+div.col-xs-12#mapdiv {
+	width: 87%; margin-right: 6.5%; margin-left: 6.5%;
+}
+}
+.res_label {
+	padding: 6px 5px 6px 0px; height: 34px; margin-bottom: 0px;
+}
+@media all and (max-width:991px)
+{
+#res_address div div input {
+	margin-top: -15px;
+}
+}
+@media all and (max-width:767px)
+{
+#res_radio_group {
+	text-align: left;
+}
+div#res_radio_group div {
+	margin: 0px;
+}
+.res_label {
+	padding: 0px; height: auto;
+}
+#res_address div div {
+	margin: 0px;
+}
+#res_address div div input {
+	margin: 0px;
+}
+#res_address div div {
+	float: none !important;
+}
+#addr_number {
+	width: 50%;
+}
+#p_addr_number {
+	width: 50%;
+}
+}
+.people-xs-label {
+	margin: 0px auto !important; bottom: -5px;
+}
+#expand {
+	padding-left: 7px; font-size: 1.2em;
+}
+#roster_list .form-group {
+	margin-bottom: 0px;
+}
+.swap {
+	margin-top: 0px !important; margin-bottom: 0px !important; background-color: rgb(223, 231, 237);
+}
+.bottomline {
+	border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.topline {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+@media all and (max-width:767px)
+{
+.swap {
+	background-color: transparent;
+}
+.bottomline {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.topline {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.add_person {
+	clear: both;
+}
+}
+.rel_indent_radio {
+	margin-left: 35px;
+}
+.rel_move_over {
+	margin-top: -10px;
+}
+@media all and (max-width:767px)
+{
+.rel_move_over {
+	margin-left: -10px !important;
+}
+}
+#DOB_MONTH {
+	width: auto; display: inline;
+}
+#DOB_DAY {
+	width: auto; display: inline;
+}
+#DOB_YEAR {
+	width: auto; display: inline;
+}
+#DOB_AGE {
+	width: auto; display: inline;
+}
+fieldset div#agediv {
+	margin-left: 30px;
+}
+fieldset div#dobdiv {
+	margin-left: 30px;
+}
+@media all and (max-width:767px)
+{
+fieldset div#agediv {
+	margin-left: 0px;
+}
+fieldset div#dobdiv {
+	margin-left: 0px;
+}
+}
+form[id^='race2_origin'] label {
+	display: inline;
+}
+#overlay {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; text-align: center; display: none; position: fixed; opacity: 0.5;
+}
+#dialog {
+	border-radius: 5px; left: 50%; top: 35%; width: 300px; height: 150px; text-align: center; font-family: arial,helvetica,sans-serif; font-size: 14px; margin-top: -50px; margin-left: -150px; display: none; position: fixed; box-shadow: 0px 0px 30px #000; background-color: rgb(255, 255, 255); -mox-border-radius: 5px;
+}
+#dialog h2 {
+	border: gray; border-image: none; color: rgb(255, 255, 255); padding-top: 10px; padding-bottom: 5px; font-size: 17px; margin-top: 0px; margin-bottom: 10px; background-color: rgb(59, 99, 150);
+}
+#dialog #dialog-error {
+	padding: 3px; border: 1px solid rgb(149, 59, 57); border-image: none; color: rgb(149, 59, 57); font-size: 13px; background-color: rgb(255, 186, 186);
+}
+#dialog #dialog-button-cont {
+	margin: auto; padding-top: 3px;
+}
+#dialog-button-cont #dialog-renew {
+	width: 40px;
+}
+#dialog #dialog-cd {
+	left: 27%; top: 120px; font-size: 13px; position: absolute;
+}
